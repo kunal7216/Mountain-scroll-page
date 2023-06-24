@@ -1,9 +1,12 @@
+
+
 const mountainLeft = document.querySelector('#mountain_left');
 const mountainRight = document.querySelector('#mountain_right');
 const cloud1 = document.querySelector('#clouds_1');
 const cloud2 = document.querySelector('#clouds_2');
 const text = document.querySelector('#text');
 const man = document.querySelector('#man');
+
 
 window.addEventListener('scroll',()=>{
     let value = scrollY;
